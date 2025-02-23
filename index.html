@@ -3,47 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="styles/normalize.css">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<script src="https://kit.fontawesome.com/c585d0934b.js" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c585d0934b.js" crossorigin="anonymous"></script>
     <title>Productly</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="#"><img src="images/Logo.svg" alt="logo"></a>
-            </div>            
-            <div class="menu">
+    <header class="header-main">
+        <img class="header-main__logo" src="logo.svg" alt="Productly-logo">
+        <div class="header-main__navbar">
+            <nav class="header-main__navbar-elements">
                 <ul>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Customers</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Resources</a></li>
+                    <li>Product</li>
+                    <li>Customers</li>
+                    <li>Pricing</li>
+                    <li>Resources</li>
                 </ul>
-                <button class="login">Login</button>
-                <button class="signup">Sign Up</button>                
-            </div>
-        </nav>
-        <main>
-        <div class="content">
-            <div class="text">
+            </nav>
+            <button class="btn btn__sign-in">Sign In</button>
+            <button class="btn btn__sign-up">Sign Up</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="hero__left">
                 <h1>The Design Thinking superpowers</h1>
-                <p>Tools, tutorials, design and innovation experts, all in one place!
-                    The most intuitive way to imagine your next user experience.
-                </p>
+                <p class="hero-paragraph">Tools, tutorials, design and innovation experts, all in one place!
+                The most intuitive way to imagine your next user experience.</p>
                 <button class="get-started">Get Started</button>
                 <button class="watch-video"><i class="fa-solid fa-play"></i>Watch the video</button>
-                
             </div>
-            <div class="image">
-                <img src="images/Jumping.png" alt="happy people">
+            <div class="hero-right">
+                <img class="hero-right-image" src="images/Jumping.png" alt="people jumping">
             </div>
-        </div>
-        </main>
-    </header>
+        </section>
+        
+        <section class="feature-section">
+            <h2 class="feature_heading">We design tools to unveil your superpowers</h2>
+            <div class="feature_cards-container">
+                <div class="feature_cards">
+                    <img class="feature_cards-icon" src="images/icon-pointer.png" alt="pointer"> 
+                    <h6 class="feature__cards-title">First click tests</h6>
+                    <p class="feature_cards-text">While most people enjoy casino gambling,</p>
+                </div>
+                <div class="feature_cards">
+                    <img class="feature_cards-icon" src="images/icon-survey.png" alt="survey">
+                    <h6 class="feature__cards-title">Design surveys</h6>
+                    <p class="feature_cards-text">Sports betting, lottery, and bingo playing for the fun.</p>
+                </div> 
+                <div class="feature_cards">
+                    <img class="feature_cards-icon" src="images/icon-heart.png" alt="heart"> 
+                    <h6 class="feature_cards-title">Preference tests</h6>
+                    <p class="feature_cards-text">The Myspace page defines the individual.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,4 +1,4 @@
-  .navbar {
+  /* .navbar {
     text-decoration: none;
     font-family: "Poppins", serif;
     padding-right: 15px;
@@ -79,7 +79,7 @@
     color: black;
     font-family: "Poppins", serif;
     margin-top: 211px;
-    margin-left: 146px;
+    margin-left: 146px !important;
     font-weight: bold;
     font-size: 44px;
     text-shadow: 2px 2px 3px #2F281E;
@@ -132,10 +132,121 @@
     background-color: white;
     border: none;
   }
-  .watch-video:hover {
+.watch-video:hover {
     transform: scale(0.95);
   }
-  .image {
+.image {
     object-fit: contain;
     width: 50%;
+  } 
+h2 {
+    max-width: 539px;
+    height: 108px;
+    color: black;
+    font-family: "Poppins", serif;
+    margin-top: 211px;
+    margin-left: 439px !important;
+    font-weight: 700;
+    font-size: 36px;
+    align-items: center;
+  } 
+.background-color {
+    width: 51px;
+    height: 50px;
+    margin-top: 162px;
+    margin-left: 567px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
   }
+.features {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.feature {
+    text-align: center;
+    width: 220px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+}
+
+.feature h3 {
+    font-size: 22px;
+    font-weight: 600;
+    width: 181px;
+    height: 33px;
+    margin-bottom: 10px;
+    font-family: "Poppins", serif;
+}
+
+.feature p {
+    font-size: 14px;
+    width: 240px;
+    height: 52px;
+    margin-top: 46px;
+    font-family: "Poppins", serif;
+  }
+
+.signup {
+    color: white;
+    background-color: #FF9900;
+    margin-top: 45px;
+    margin-left: 146px;
+    margin-right: 30px;
+    border-radius: 5px;
+    outline: none;
+    width: 102px;
+    height: 46px;
+    font-family: "Poppins", serif;
+    border: none;
+    opacity: 100%;
+}
+
+.signup:hover {
+    transform: scale(0.95);
+}
+*/
+.header-main {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-left: 10%;
+
+}
+
+.header-main__logo {
+  align-items: center;
+
+}
+.header-main__navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
